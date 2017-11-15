@@ -8,7 +8,7 @@ namespace LeagueStore.Models
 {
     public class MyContext : DbContext
     {
-        public MyContext() : base("name=Azure")
+        public MyContext() : base("name=Local")
         {
             System.Data.Entity.Database.SetInitializer(new MyContextInitializer());
         }

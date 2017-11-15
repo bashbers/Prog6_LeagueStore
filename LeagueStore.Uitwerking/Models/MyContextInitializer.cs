@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LeagueStore.Models
 {
-    public class MyContextInitializer : DropCreateDatabaseIfModelChanges<MyContext>
+    public class MyContextInitializer : DropCreateDatabaseAlways<MyContext>
     {
         protected override void Seed(MyContext context)
         {
