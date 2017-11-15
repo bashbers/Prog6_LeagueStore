@@ -9,11 +9,19 @@ namespace LeagueStore.Controllers
 {
     public class HomeController : Controller
     {
+        /// <summary>
+        /// Een actie die geen HTMl maar gewoon een berichtje terug stuurt
+        /// </summary>
+        /// <returns></returns>
         public ActionResult HelloWorld()
         {
             return Content("Hello world");
         }
 
+        /// <summary>
+        /// Een actie die een HTML pagina terug stuurt
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Index()
         {
             return View();
