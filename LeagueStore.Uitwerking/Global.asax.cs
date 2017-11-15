@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace LeagueStore
+namespace LeagueStore.Uitwerking
 {
     public class MvcApplication : System.Web.HttpApplication
     {
